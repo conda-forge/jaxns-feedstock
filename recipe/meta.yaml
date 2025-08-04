@@ -1,5 +1,5 @@
 {% set name = "jaxns" %}
-{% set version = "2.6.8" %}
+{% set version = "2.6.9" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jaxns-{{ version }}.tar.gz
-  sha256: 49ccf9cbbb794b9279da4490ab5e4e4f87d6d629488f59767afda9686abc479c
+  sha256: 3b72e9dd27c6fdefdc86247b8d3a5cbd20d86cef69d5ac46e2528b78a44fdc11
 
 build:
   noarch: python
